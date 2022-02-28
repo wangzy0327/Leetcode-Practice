@@ -16,12 +16,13 @@
 | 链表                                                         | 无代码  |          |
 | ------------------------------------------------------------ | ------- | -------- |
 | [203. 移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/) | C++源码 | Java源码 |
-|                                                              |         |          |
-|                                                              |         |          |
+| [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | C++源码 | Java源码 |
+| [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii) | C++源码 | Java源码 |
+| [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | C++源码 | Java源码 |
 
 
 
-| 哈希表                                                       | 无代码  |          |
+| 哈希表/数据结构类                                            | 无代码  |          |
 | ------------------------------------------------------------ | ------- | -------- |
 | [804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/) | C++源码 | Java源码 |
 | [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | C++源码 | Java源码 |
@@ -31,6 +32,7 @@
 | [146. LRU 缓存](https://leetcode-cn.com/problems/lru-cache/) | C++源码 | Java源码 |
 | [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | C++源码 | Java源码 |
 | [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)     | C++源码 | Java源码 |
+| [460. LFU 缓存](https://leetcode-cn.com/problems/lfu-cache)  | C++源码 | Java源码 |
 
 
 
@@ -55,6 +57,7 @@
 | [394. 字符串解码](https://leetcode-cn.com/problems/decode-string/) | C++源码 | Java源码 |
 | [503. 下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/) | C++源码 | Java源码 |
 | [224. 基本计算器](https://leetcode-cn.com/problems/basic-calculator/) | C++源码 | Java源码 |
+| [227. 基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii/) | C++源码 | Java源码 |
 | [面试题 16.26. 计算器](https://leetcode-cn.com/problems/calculator-lcci/) | C++源码 | Java源码 |
 | [341. 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/) | C++源码 | Java源码 |
 | [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | C++源码 | Java源码 |
@@ -102,6 +105,8 @@
 | 动态规划                                                     | 无代码  |          |
 | ------------------------------------------------------------ | ------- | -------- |
 | [300 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | C++源码 | Java源码 |
+| [53. 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray) | C++源码 | Java源码 |
+| [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | C++源码 | Java源码 |
 | [354 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/) | C++源码 | Java源码 |
 | [1143 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | C++源码 | Java源码 |
 | [72 编辑距离](https://leetcode-cn.com/problems/edit-distance/) | C++源码 | Java源码 |
@@ -117,20 +122,23 @@
 | [337 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii/) | C++源码 | Java源码 |
 | [494 目标和](https://leetcode-cn.com/problems/target-sum/)   | C++源码 | Java源码 |
 | [309 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | C++源码 | Java源码 |
-| [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | C++源码 | Java源码 |
 | [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) （动态规划/贪心） | C++源码 | Java源码 |
 | [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | C++源码 | Java源码 |
+| [651. 4键键盘](https://leetcode-cn.com/problems/4-keys-keyboard) | C++源码 | Java源码 |
+| [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons) | C++源码 | Java源码 |
+| [416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum) | C++源码 | Java源码 |
 
 
 
-| 回溯                                                         | 无代码  |          |
+| 回溯（DFS）                                                  | 无代码  |          |
 | ------------------------------------------------------------ | ------- | -------- |
 | [46. 全排列](https://leetcode-cn.com/problems/permutations/) | C++源码 | Java源码 |
 | [77. 组合](https://leetcode-cn.com/problems/combinations/)   | C++源码 | Java源码 |
 | [78. 子集](https://leetcode-cn.com/problems/subsets/)        | C++源码 | Java源码 |
 | [面试题 08.09. 括号](https://leetcode-cn.com/problems/bracket-lcci/) | C++源码 | Java源码 |
 | [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | C++源码 | Java源码 |
-|                                                              |         |          |
+| [51. N 皇后](https://leetcode-cn.com/problems/n-queens)      | C++源码 | Java源码 |
+| [37. 解数独](https://leetcode-cn.com/problems/sudoku-solver) | C++源码 | Java源码 |
 
 
 
@@ -167,11 +175,28 @@
 | [剑指 Offer 68 - II. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | C++源码 | Java源码 |
 | [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | C++源码 | Java源码 |
 | [124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | C++源码 | Java源码 |
+| [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | C++源码 | Java源码 |
+| [222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes) | C++源码 | Java源码 |
+| [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree) | C++源码 | Java源码 |
+
+
+
+| BFS算法                                                      | 无代码  |          |
+| ------------------------------------------------------------ | ------- | -------- |
+| [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree) | C++源码 | Java源码 |
+| [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock) | C++源码 | Java源码 |
+| [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle) | C++源码 | Java源码 |
+| [15. 三数之和](https://leetcode-cn.com/problems/3sum)        | C++源码 | Java源码 |
+| [18. 四数之和](https://leetcode-cn.com/problems/4sum)        | C++源码 | Java源码 |
+| [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | C++源码 | Java源码 |
 
 
 
 | 二分查找                                                     | 无代码  |          |
 | ------------------------------------------------------------ | ------- | -------- |
+| [704. 二分查找](https://leetcode-cn.com/problems/binary-search/) | C++源码 | Java源码 |
+| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | C++源码 | Java源码 |
+| [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | C++源码 | Java源码 |
 | [寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | C++源码 | Java源码 |
 | [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/) （二分查找/快慢指针） | C++源码 | Java源码 |
 | [1011 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/) | C++源码 | Java源码 |
@@ -190,6 +215,10 @@
 
 | 双指针                                                       | 无代码  |          |
 | ------------------------------------------------------------ | ------- | -------- |
+| [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | C++源码 | Java源码 |
+| [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | C++源码 | Java源码 |
+| [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | C++源码 | Java源码 |
+| [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | C++源码 | Java源码 |
 | [556. 下一个更大元素 III](https://leetcode-cn.com/problems/next-greater-element-iii/) | C++源码 | Java源码 |
 | [面试题 02.06. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list-lcci/) | C++源码 | Java源码 |
 | [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | C++源码 | Java源码 |
