@@ -18,7 +18,7 @@
 | [203. 移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [C++源码](leetcode_203/cpp/main.cpp)           | [Java源码](leetcode_0203/java/Solution.java)      |
 | [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list) | [C++源码](leetcode_0206/cpp/leetcode_0206.cpp) | [Java源码](leetcode_0206/java/leetcode_0206.java) |
 | [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii) | [C++源码](leetcode_0092/cpp/leetcode_0092.cpp) | [Java源码](leetcode_0092/java/leetcode_0092.java) |
-| [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | C++源码                                        | Java源码                                          |
+| [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | [C++源码](leetcode_0025/cpp/leetcode_0025.cpp) | [Java源码](leetcode_0025/java/leetcode_0025.java) |
 
 
 
