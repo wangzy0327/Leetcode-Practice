@@ -22,17 +22,17 @@
 
 
 
-| 哈希表/数据结构类                                            | 无代码  |          |
-| ------------------------------------------------------------ | ------- | -------- |
-| [804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/) | C++源码 | Java源码 |
-| [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | C++源码 | Java源码 |
-| [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | C++源码 | Java源码 |
-| [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | C++源码 | Java源码 |
-| [128 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | C++源码 | Java源码 |
-| [146. LRU 缓存](https://leetcode-cn.com/problems/lru-cache/) | C++源码 | Java源码 |
-| [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | C++源码 | Java源码 |
-| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)     | C++源码 | Java源码 |
-| [460. LFU 缓存](https://leetcode-cn.com/problems/lfu-cache)  | C++源码 | Java源码 |
+| 哈希表/数据结构类                                            | 无代码                                         |                                                   |
+| ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
+| [804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/) | C++源码                                        | Java源码                                          |
+| [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | C++源码                                        | Java源码                                          |
+| [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | C++源码                                        | Java源码                                          |
+| [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | C++源码                                        | Java源码                                          |
+| [128 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | C++源码                                        | Java源码                                          |
+| [146. LRU 缓存](https://leetcode-cn.com/problems/lru-cache/) | C++源码                                        | Java源码                                          |
+| [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | C++源码                                        | Java源码                                          |
+| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)     | [C++源码](leetcode_0001/cpp/leetcode_0001.cpp) | [Java源码](leetcode_0001/java/leetcode_0001.java) |
+| [460. LFU 缓存](https://leetcode-cn.com/problems/lfu-cache)  | C++源码                                        | Java源码                                          |
 
 
 
