@@ -25,7 +25,7 @@
 | 哈希表/数据结构类                                            | 无代码                                         |                                                   |
 | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
 | [804. 唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/) | [C++源码](leetcode_0804/cpp/leetcode_0804.cpp) | [Java源码](leetcode_0804/java/leetcode_0804.java) |
-| [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | C++源码                                        | Java源码                                          |
+| [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [C++源码](leetcode_0349/cpp/leetcode_0349.cpp) | [Java源码](leetcode_0349/java/leetcode_0349.java) |
 | [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | C++源码                                        | Java源码                                          |
 | [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | C++源码                                        | Java源码                                          |
 | [128 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | C++源码                                        | Java源码                                          |
