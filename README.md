@@ -28,7 +28,7 @@
 | [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [C++源码](leetcode_0349/cpp/leetcode_0349.cpp) | [Java源码](leetcode_0349/java/leetcode_0349.java) |
 | [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [C++源码](leetcode_0350/cpp/leetcode_0350.cpp) | [Java源码](leetcode_0350/java/leetcode_0350.java) |
 | [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [C++源码](leetcode_0387/cpp/leetcode_0387.cpp) | [Java源码](leetcode_0387/java/leetcode_0387.java) |
-| [128 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | C++源码                                        | Java源码                                          |
+| [128 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | [C++源码](leetcode_0128/cpp/leetcode_0128.cpp) | [Java源码](leetcode_0128/java/leetcode_0128.java) |
 | [146. LRU 缓存](https://leetcode-cn.com/problems/lru-cache/) | C++源码                                        | Java源码                                          |
 | [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | C++源码                                        | Java源码                                          |
 | [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)     | [C++源码](leetcode_0001/cpp/leetcode_0001.cpp) | [Java源码](leetcode_0001/java/leetcode_0001.java) |
