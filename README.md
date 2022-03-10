@@ -32,7 +32,7 @@
 | [**146. LRU 缓存**](https://leetcode-cn.com/problems/lru-cache/) | [C++源码](leetcode_0146/cpp/leetcode_0146.cpp) | [Java源码](leetcode_0146/java/leetcode_0146.java) |
 | [**496. 下一个更大元素 I**](https://leetcode-cn.com/problems/next-greater-element-i/) | [C++源码](leetcode_0496/cpp/leetcode_0496.cpp) | [Java源码](leetcode_0496/java/leetcode_0496.java) |
 | [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)     | [C++源码](leetcode_0001/cpp/leetcode_0001.cpp) | [Java源码](leetcode_0001/java/leetcode_0001.java) |
-| [460. LFU 缓存](https://leetcode-cn.com/problems/lfu-cache)  | C++源码                                        | Java源码                                          |
+| [**460. LFU 缓存**](https://leetcode-cn.com/problems/lfu-cache) | [C++源码](leetcode_0460/cpp/leetcode_0460.cpp) | [Java源码](leetcode_0460/java/leetcode_0460.java) |
 
 
 
