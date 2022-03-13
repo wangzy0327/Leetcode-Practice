@@ -204,12 +204,13 @@
 
 
 
-| 贪心                                                         | 无代码  |          |
-| ------------------------------------------------------------ | ------- | -------- |
-| [406. 根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | C++源码 | Java源码 |
-| [969. 煎饼排序](https://leetcode-cn.com/problems/pancake-sorting/) | C++源码 | Java源码 |
-| [452. 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | C++源码 | Java源码 |
-| [435. 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | C++源码 | Java源码 |
+| 贪心                                                         | 无代码                                         |                                                   |
+| ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
+| [406. 根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | C++源码                                        | Java源码                                          |
+| [969. 煎饼排序](https://leetcode-cn.com/problems/pancake-sorting/) | C++源码                                        | Java源码                                          |
+| [452. 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | C++源码                                        | Java源码                                          |
+| [435. 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | C++源码                                        | Java源码                                          |
+| [**1005. K 次取反后最大化的数组和**](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/) | [C++源码](leetcode_1005/cpp/leetcode_1005.cpp) | [Java源码](leetcode_1005/java/leetcode_1005.java) |
 
 
 
