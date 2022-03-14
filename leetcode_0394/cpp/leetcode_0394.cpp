@@ -39,25 +39,17 @@ public:
             if(s[i] == '['){
                 li.push_back("[");
                 i++;
-                string str = "";
-                while(isalpha(s[i])){
-                    str += s[i++];
-                }
-                li.push_back(str);
+                continue;
             }
             if(s[i] == ']'){
                 i++;
-                vector<string> tmp;
                 string str = "";
                 while(li.back() != "["){
-                    tmp.push_back(li.back());
+                    str = li.back()+str;
                     li.pop_back();
                 }
                 //去除左半边括号
                 li.pop_back();
-                for(int k = tmp.size() - 1;k >= 0;k--)
-                    str += tmp[k];
-                tmp.clear();
                 //取数字
                 int n  = dq.back();
                 dq.pop_back();

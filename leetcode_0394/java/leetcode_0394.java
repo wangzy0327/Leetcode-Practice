@@ -22,10 +22,10 @@ public class leetcode_0394 {
                     dq.addLast(num);
                 }else if(Character.isAlphabetic(chs[i])){
                     //判断是否为字母
-                    String str = "";
+                    StringBuilder str = new StringBuilder();
                     while(i < chs.length && Character.isAlphabetic(chs[i]))
-                        str += chs[i++];
-                    list.add(str);
+                        str.append(chs[i++]);
+                    list.add(str.toString());
                 }else if(chs[i] == '['){
                     //左括号
                     //将左括号入栈
@@ -34,15 +34,12 @@ public class leetcode_0394 {
                 }else if(chs[i] == ']'){
                     //右括号
                     i++;
+                    StringBuilder subStr = new StringBuilder();
                     //循环取出字符串栈顶元素，直到遇到"["
-                    LinkedList<String> sub = new LinkedList<>();
                     while(list.peekLast() != "[")
-                        sub.add(list.pollLast());
+                        subStr.insert(0,list.pollLast());
                     //移除 "["
                     list.pollLast();
-                    StringBuilder subStr = new StringBuilder();
-                    while(sub.size() > 0)
-                        subStr.append(sub.pollLast());
                     //匹配整数 进行字符串拼接
                     int n = dq.pollLast();
                     StringBuilder rs = new StringBuilder();
