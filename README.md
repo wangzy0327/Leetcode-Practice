@@ -59,7 +59,7 @@
 | [**496. 下一个更大元素 I**](https://leetcode-cn.com/problems/next-greater-element-i/) | [C++源码](leetcode_0496/cpp/leetcode_0496.cpp) | [Java源码](leetcode_0496/java/leetcode_0496.java) |
 | [**224. 基本计算器**](https://leetcode-cn.com/problems/basic-calculator/) | [C++源码](leetcode_0224/cpp/leetcode_0224.cpp) | [Java源码](leetcode_0224/java/leetcode_0224.java) |
 | [**227. 基本计算器 II**](https://leetcode-cn.com/problems/basic-calculator-ii/) | [C++源码](leetcode_0227/cpp/leetcode_0227.cpp) | [Java源码](leetcode_0227/java/leetcode_0227.java) |
-| [面试题 16.26. 计算器](https://leetcode-cn.com/problems/calculator-lcci/) | C++源码                                        | Java源码                                          |
+| [**面试题 16.26. 计算器**](https://leetcode-cn.com/problems/calculator-lcci/) | [C++源码](offer_0016/cpp/offer_0016.cpp)       | [Java源码](offer_0016/java/offer_0016.java)       |
 | [341. 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/) | C++源码                                        | Java源码                                          |
 | [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | C++源码                                        | Java源码                                          |
 
