@@ -234,8 +234,8 @@
 | [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [C++源码](leetcode_0025/cpp/leetcode_0025.cpp) | [Java源码](leetcode_0025/java/leetcode_0025.java) |
 | [剑指 Offer 24 反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | [C++源码](offer_0024/cpp/offer_0024.cpp)       | [Java源码](offer_0024/java/offer_0024.java)       |
 | [92 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/) | [C++源码](leetcode_0092/cpp/leetcode_0092.cpp) | [Java源码](leetcode_0092/java/leetcode_0092.java) |
-| [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | C++源码                                        | Java源码                                          |
-| [82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | C++源码                                        | Java源码                                          |
+| [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [C++源码](leetcode_0083/cpp/leetcode_0083.cpp) | [Java源码](leetcode_0083/java/leetcode_0083.java) |
+| [82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | [C++源码](leetcode_0082/cpp/leetcode_0082.cpp) | [Java源码](leetcode_0082/java/leetcode_0082.java) |
 
 
 
