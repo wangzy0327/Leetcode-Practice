@@ -219,8 +219,8 @@
 | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
 | [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle) | [C++源码](leetcode_0141/cpp/leetcode_0141.cpp) | [Java源码](leetcode_0141/java/leetcode_0141.java) |
 | [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [C++源码](leetcode_0142/cpp/leetcode_0142.cpp) | [Java源码](leetcode_0142/java/leetcode_0142.java) |
-| [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | C++源码                                        | Java源码                                          |
-| [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | C++源码                                        | Java源码                                          |
+| [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [C++源码](leetcode_0876/cpp/leetcode_0876.cpp) | [Java源码](leetcode_0876/java/leetcode_0876.java) |
+| [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [C++源码](offer_0022/cpp/offer_0022.cpp)       | [Java源码](offer_0022/java/offer_0022.java)       |
 | [556. 下一个更大元素 III](https://leetcode-cn.com/problems/next-greater-element-iii/) | C++源码                                        | Java源码                                          |
 | [面试题 02.06. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list-lcci/) | C++源码                                        | Java源码                                          |
 | [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | C++源码                                        | Java源码                                          |
