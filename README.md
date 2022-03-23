@@ -221,8 +221,8 @@
 | [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii) | [C++源码](leetcode_0142/cpp/leetcode_0142.cpp) | [Java源码](leetcode_0142/java/leetcode_0142.java) |
 | [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list) | [C++源码](leetcode_0876/cpp/leetcode_0876.cpp) | [Java源码](leetcode_0876/java/leetcode_0876.java) |
 | [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [C++源码](offer_0022/cpp/offer_0022.cpp)       | [Java源码](offer_0022/java/offer_0022.java)       |
-| [面试题 02.06. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list-lcci/) | C++源码                                        | Java源码                                          |
-| [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | C++源码                                        | Java源码                                          |
+| [面试题 02.06. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list-lcci/) | [C++源码](offer_0006/cpp/offer_0006.cpp)       | [Java源码](offer_0006/java/offer_0006.java)       |
+| [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [C++源码](leetcode_0234/cpp/leetcode_0234.cpp) | [Java源码](leetcode_0234/java/leetcode_0234.java) |
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum/)       | C++源码                                        | Java源码                                          |
 | [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | C++源码                                        | Java源码                                          |
 
