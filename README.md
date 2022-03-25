@@ -188,7 +188,7 @@
 | [752. 打开转盘锁](https://leetcode-cn.com/problems/open-the-lock) | C++源码                                        | Java源码                                          |
 | [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle) | C++源码                                        | Java源码                                          |
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum)        | [C++源码](leetcode_0015/cpp/leetcode_0015.cpp) | [Java源码](leetcode_0015/java/leetcode_0015.java) |
-| [18. 四数之和](https://leetcode-cn.com/problems/4sum)        | C++源码                                        | Java源码                                          |
+| [18. 四数之和](https://leetcode-cn.com/problems/4sum)        | [C++源码](leetcode_0018/cpp/leetcode_0018.cpp) | [Java源码](leetcode_0018/java/leetcode_0018.java) |
 | [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | C++源码                                        | Java源码                                          |
 
 
