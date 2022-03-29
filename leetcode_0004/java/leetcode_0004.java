@@ -1,65 +1,52 @@
 public class leetcode_0004 {
     class Solution {
         public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-            //由于要求时间复杂度为O(log(m+n))而且数组有序，由此可想到需要用到二分查找
-            //由于要找到中位数转化为寻找 正序数组中 第k个元素
-            //可以分为奇数 (m+n)/2  /偶数 (m+n)/2,(m+n)/2+1
-            //每次可以找到 第k/2个元素，即寻找k/2-1索引的位置,每次可以过滤掉较小元素的k/2个元素
-            int length1 = nums1.length, length2 = nums2.length;
-            int totalLength = length1 + length2;
-            if (totalLength % 2 == 1) {
-                int midIndex = totalLength / 2;
-                double median = getKthElement(nums1, nums2, midIndex + 1);
-                return median;
-            } else {
-                int midIndex1 = totalLength / 2 - 1, midIndex2 = totalLength / 2;
-                double median = (getKthElement(nums1, nums2, midIndex1 + 1) + getKthElement(nums1, nums2, midIndex2 + 1)) / 2.0;
-                return median;
+            //有序且要求找寻时间复杂度要求O(log(m+n))可以想到二分搜索
+            //两个有序数组中位数的寻找可以转化为找寻 两个有序数组中间的数
+            //等价于 长度为m和长度为n的两个数组 如果(m+n)为奇数，即寻找 两个数组中第(m+n)/2+1个数
+            //如果(m+n)为偶数，即寻找 两个数组中第(m+n)/2个数和第(m+n)/2+1个数
+            //题目就转化为寻找第kth个数的问题，由于是有序的，这个问题可以采用二分搜索进行过滤筛选直到找到对应元素
+            //假如k即为中位数在两个数组长度中的 序列位置，则可以分别找到在两个数组中第[k/2]位置
+            //比较两个数组中 [k/2]位置的值，较小的那个，可以过滤掉其[k/2]左边的元素（这里需要注意数组长度跟[k/2]大小的问题）,因为它最多为第k-1个序列
+            //二分搜索寻找的极限即为k==1,返回 两个数组中以当前索引起点最小的那个
+            int m = nums1.length;
+            int n = nums2.length;
+            int k = (m+n)/2;
+            if((m+n)%2 == 1){
+                //奇数
+                return (double)findKthElement(nums1,nums2,k+1);
+            }else{
+                //偶数
+                return (findKthElement(nums1,nums2,k)+findKthElement(nums1,nums2,k+1))/2.0;
             }
         }
-        public int getKthElement(int[] nums1, int[] nums2, int k) {
-            /* 主要思路：要找到第 k (k>1) 小的元素，那么就取 pivot1 = nums1[k/2-1] 和 pivot2 = nums2[k/2-1] 进行比较
-             * 这里的 "/" 表示整除
-             * nums1 中小于等于 pivot1 的元素有 nums1[0 .. k/2-2] 共计 k/2-1 个
-             * nums2 中小于等于 pivot2 的元素有 nums2[0 .. k/2-2] 共计 k/2-1 个
-             * 取 pivot = min(pivot1, pivot2)，两个数组中小于等于 pivot 的元素共计不会超过 (k/2-1) + (k/2-1) <= k-2 个
-             * 这样 pivot 本身最大也只能是第 k-1 小的元素
-             * 如果 pivot = pivot1，那么 nums1[0 .. k/2-1] 都不可能是第 k 小的元素。把这些元素全部 "删除"，剩下的作为新的 nums1 数组
-             * 如果 pivot = pivot2，那么 nums2[0 .. k/2-1] 都不可能是第 k 小的元素。把这些元素全部 "删除"，剩下的作为新的 nums2 数组
-             * 由于我们 "删除" 了一些元素（这些元素都比第 k 小的元素要小），因此需要修改 k 的值，减去删除的数的个数
-             */
-
-            int length1 = nums1.length, length2 = nums2.length;
-            int index1 = 0, index2 = 0;
-            int kthElement = 0;
-
-            while (true) {
-                // 边界情况
-                if (index1 == length1) {
-                    return nums2[index2 + k - 1];
-                }
-                if (index2 == length2) {
-                    return nums1[index1 + k - 1];
-                }
-                if (k == 1) {
-                    return Math.min(nums1[index1], nums2[index2]);
-                }
-
-                // 正常情况
-                int half = k / 2;
-                int newIndex1 = Math.min(index1 + half, length1) - 1;
-                int newIndex2 = Math.min(index2 + half, length2) - 1;
-                int pivot1 = nums1[newIndex1], pivot2 = nums2[newIndex2];
-                if (pivot1 <= pivot2) {
-                    k -= (newIndex1 - index1 + 1);
-                    index1 = newIndex1 + 1;
-                } else {
-                    k -= (newIndex2 - index2 + 1);
-                    index2 = newIndex2 + 1;
+        private int findKthElement(int[] nums1,int[] nums2,int k){
+            int m = nums1.length;
+            int n = nums2.length;
+            int idx1 = 0;
+            int idx2 = 0;
+            while(true){
+                //处理特殊情况 nums1 起始索引到数组索引结束位置
+                if(idx1 == m)
+                    return nums2[idx2+k-1];
+                if(idx2 == n)
+                    return nums1[idx1+k-1];
+                //二分搜索结束
+                if(k == 1)
+                    return Math.min(nums1[idx1],nums2[idx2]);
+                int newIdx1 = Math.min(m-1,idx1+k/2-1);
+                int newIdx2 = Math.min(n-1,idx2+k/2-1);
+                if(nums1[newIdx1] <= nums2[newIdx2]){
+                    //缩小找寻索引值
+                    k-=(newIdx1 - idx1 + 1);
+                    idx1 = newIdx1 + 1;
+                }else{
+                    //nums1[newIdx1] > nums2[newIdx2]
+                    k-=(newIdx2 - idx2 + 1);
+                    idx2 = newIdx2 + 1;
                 }
             }
         }
-
     }
     public static void main(String[] args) {
         Solution solution = new leetcode_0004().new Solution();
