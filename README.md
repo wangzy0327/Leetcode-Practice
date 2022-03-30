@@ -148,13 +148,13 @@
 | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
 | [653 两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | [C++源码](leetcode_0653/cpp/leetcode_0653.cpp) | [Java源码](leetcode_0653/java/leetcode_0653.java) |
 | [0226 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) | [C++源码](leetcode_0226/cpp/leetcode_0226.cpp) | [Java源码](leetcode_0226/java/leetcode_0226.java) |
-| [99 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/) | C++源码                                        | Java源码                                          |
+| [0700 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | [C++源码](leetcode_0700/cpp/leetcode_0700.cpp) | [Java源码](leetcode_0700/java/leetcode_0700.java) |
+| [**99 恢复二叉搜索树**](https://leetcode-cn.com/problems/recover-binary-search-tree/) | [C++源码](leetcode_0099/cpp/leetcode_0099.cpp) | [Java源码](leetcode_0099/java/leetcode_0099.java) |
 | [449 序列化和反序列化二叉搜索树](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/) | C++源码                                        | Java源码                                          |
 | [450 删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | C++源码                                        | Java源码                                          |
 | [530 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | C++源码                                        | Java源码                                          |
 | [538 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | C++源码                                        | Java源码                                          |
 | [701 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | C++源码                                        | Java源码                                          |
-| [0700 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | C++源码                                        | Java源码                                          |
 | [0669 修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | C++源码                                        | Java源码                                          |
 | [面试题 04.02. 最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/) | C++源码                                        | Java源码                                          |
 | [面试题 04.05. 合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/) | C++源码                                        | Java源码                                          |
