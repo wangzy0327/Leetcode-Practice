@@ -1,5 +1,5 @@
 //
-// Created by wzy on 2022/3/30.
+// Created by wzy on 2022/4/1.
 //
 
 #include<iostream>
@@ -7,7 +7,6 @@
 #include<vector>
 #include <algorithm>
 #include <unordered_map>
-#include <unordered_set>
 #include <list>
 #include <deque>
 #include <stack>
@@ -30,18 +29,31 @@ struct TreeNode{
 
 class Solution {
 public:
-    TreeNode* searchBST(TreeNode* root, int val) {
-        if(root){
-            if(root->val == val)
-                return root;
-            else if(val < root->val)
-                return searchBST(root->left,val);
-            else if(val > root->val)
-                return searchBST(root->right,val);
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        vector<TreeNode*> cur;
+        vector<TreeNode*> next;
+        if(!root)
+            return vector<vector<int>> {};
+        if(root)
+            cur.push_back(root);
+        vector<vector<int>> res;
+        vector<int> curEles;
+        while(cur.size()){
+            for(int i = 0;i < cur.size();i++){
+                TreeNode* node = cur[i];
+                curEles.push_back(node->val);
+                if(node->left)
+                    next.push_back(node->left);
+                if(node->right)
+                    next.push_back(node->right);
+            }
+            res.push_back(curEles);
+            curEles.clear();
+            cur = next;
+            next.clear();
         }
-        return nullptr;
+        return res;
     }
-
     vector<string> levelOrderStr(TreeNode* root){
         vector<TreeNode*> cur;
         vector<TreeNode*> next;
@@ -75,27 +87,8 @@ public:
         }
         return res;
     }
-
-    void traversePreTree(string& s,TreeNode* root){
-        if(root){
-            s+=(to_string(root->val)+",");
-            traversePreTree(s,root->left);
-            traversePreTree(s,root->right);
-        }
-    }
-    vector<string> printTree(TreeNode* root){
-        string s;
-        vector<string> levelOrder = levelOrderStr(root);
-        return levelOrder;
-    }
-    void deleteTree(TreeNode* root){
-        if(root){
-            deleteTree(root->left);
-            deleteTree(root->right);
-            root = nullptr;
-        }
-    }
 };
+
 
 template<typename T>
 void printVec(std::vector<T> l){
@@ -113,23 +106,58 @@ void printVec(std::vector<T> l){
     std::cout<<res<<std::endl;
 }
 
+template<typename T>
+string convertVecToStr(std::vector<T> l){
+    std::string res = "[";
+    std::string tmp = "";
+    std::stringstream ss;
+    for(auto ele : l){
+        ss << ele;
+        ss >> tmp;
+        res += tmp + ",";
+        ss.clear();
+    }
+    res = res.substr(0,res.size()-1);
+    res += "]";
+    return res;
+}
+
+template<typename T>
+void printVecArr(std::vector<std::vector<T>> l){
+    std::string res = "[";
+    std::string tmp = "";
+    std::stringstream ss;
+    for(auto ele : l){
+        ss << convertVecToStr(ele);
+        ss >> tmp;
+        res += tmp + ",";
+        ss.clear();
+    }
+    res = res.substr(0,res.size()-1);
+    res += "]";
+    std::cout<<res<<std::endl;
+}
+
+
 int main() {
-    TreeNode* root = new TreeNode(4);
-    TreeNode* left = new TreeNode(2);
-    TreeNode* right = new TreeNode(7);
-    TreeNode* ll = new TreeNode(1);
-    TreeNode* lr = new TreeNode(3);
+    TreeNode* root = new TreeNode(3);
+    TreeNode* left = new TreeNode(9);
+    TreeNode* right = new TreeNode(20);
+    TreeNode* ll = nullptr;
+    TreeNode* lr = nullptr;
+    TreeNode* rl = new TreeNode(15);
+    TreeNode* rr = new TreeNode(7);
     root->left = left;
     root->right = right;
     left->left = ll;
     left->right = lr;
-    Solution().printTree(root);
-    //root = [4,2,7,1,3], val = 2
-    int val = 2;
-    TreeNode* res = Solution().searchBST(root,val);
-    vector<string> vec = Solution().printTree(res);
-    printVec(vec);
+    right->left = rl;
+    right->right = rr;
+//    [3,9,20,null,null,15,7]
+    vector<vector<int>> res = Solution().levelOrder(root);
+    vector<string> resStr = Solution().levelOrderStr(root);
+    printVec(resStr);
+    printVecArr(res);
     //result
-    //[2,1,3]
-    Solution().deleteTree(res);
+    //[[3],[9,20],[15,7]]
 }

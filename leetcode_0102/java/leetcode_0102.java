@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class leetcode_0449 {
+public class leetcode_0102 {
     public class TreeNode{
         int val;
         TreeNode left;
@@ -16,41 +16,7 @@ public class leetcode_0449 {
             this.right = right;
         }
     }
-    public class Codec {
-        // Encodes a tree to a single string.
-        public String serialize(TreeNode root) {
-            if(root == null)
-                return "#";
-            StringBuilder sb = new StringBuilder();
-            sb.append(root.val);
-            sb.append(" ");
-            sb.append(serialize(root.left));
-            sb.append(" ");
-            sb.append(serialize(root.right));
-            return sb.toString();
-        }
-
-        // Decodes your encoded data to tree.
-        public TreeNode deserialize(String data) {
-            String[] splits = data.split(" ");
-            index = 0;
-            TreeNode root = rebuild(splits);
-            return root;
-        }
-        private int index = 0;
-        private TreeNode rebuild(String[] splits){
-            if(index >= splits.length)
-                return null;
-            if(splits[index].equals("#")){
-                index+=1;
-                return null;
-            }
-            TreeNode node = new TreeNode(Integer.parseInt(splits[index++]));
-            node.left = rebuild(splits);
-            node.right = rebuild(splits);
-            return node;
-        }
-
+    class Solution {
         public List<List<Integer>> levelOrder(TreeNode root) {
             List<TreeNode> cur = new ArrayList();
             List<TreeNode> next = new ArrayList();
@@ -106,7 +72,6 @@ public class leetcode_0449 {
             }
             return res;
         }
-
         public void traversePreTree(StringBuilder sb,TreeNode root){
             if(root != null){
                 sb.append(root.val+",");
@@ -122,30 +87,40 @@ public class leetcode_0449 {
             System.out.printf(substring);
             System.out.println("]");
         }
+        public <T> void printListArr(List<List<T>> list){
+            for(int i = 0;i < list.size();i++){
+                if(i == list.size() - 1){
+                    if(i == 0)
+                        System.out.printf("[ ");
+                    System.out.println(Arrays.toString(list.get(i).toArray(Integer[]::new))+" ] ");
+                }else{
+                    if(i == 0)
+                        System.out.printf("[ ");
+                    System.out.printf(Arrays.toString(list.get(i).toArray(Integer[]::new))+" , ");
+                }
+            }
+        }
     }
     public static void main(String[] args) {
-        Codec codec = new leetcode_0449().new Codec();
-        TreeNode root = new leetcode_0449().new TreeNode(2);
-        TreeNode left = new leetcode_0449().new TreeNode(1);
-        TreeNode right = new leetcode_0449().new TreeNode(3);
-//        leetcode_0449.TreeNode ll = new leetcode_0449().new TreeNode(1);
-//        leetcode_0449.TreeNode lr = new leetcode_0449().new TreeNode(3);
-//        leetcode_0449.TreeNode rl = new leetcode_0449().new TreeNode(6);
-//        leetcode_0449.TreeNode rr = new leetcode_0449().new TreeNode(9);
-//        left.left = ll;
-//        left.right = lr;
-//        right.left = rl;
-//        right.right = rr;
+        leetcode_0102.Solution solution = new leetcode_0102().new Solution();
+        leetcode_0102.TreeNode root = new leetcode_0102().new TreeNode(3);
+        leetcode_0102.TreeNode left = new leetcode_0102().new TreeNode(9);
+        leetcode_0102.TreeNode right = new leetcode_0102().new TreeNode(20);
+        leetcode_0102.TreeNode ll = null;
+        leetcode_0102.TreeNode lr = null;
+        leetcode_0102.TreeNode rl = new leetcode_0102().new TreeNode(15);
+        leetcode_0102.TreeNode rr = new leetcode_0102().new TreeNode(7);
+        left.left = ll;
+        left.right = lr;
+        right.left = rl;
+        right.right = rr;
         root.left = left;
         root.right = right;
-        List<String> rootStr = codec.levelOrderStr(root);
+        List<String> rootStr = solution.levelOrderStr(root);
         System.out.println(Arrays.toString(rootStr.toArray(String[]::new)));
-//        codec.printTree(root);
-        //[2,1,3]
-        String serializeStr = codec.serialize(root);
-        TreeNode ano = codec.deserialize(serializeStr);
-        codec.printTree(ano);
-        //result
-        //[2,1,3]
+        List<List<Integer>> lists = solution.levelOrder(root);
+//        [3,9,20,null,null,15,7]
+        solution.printListArr(lists);
+        //result [[3],[9,20],[15,7]]
     }
 }

@@ -56,6 +56,66 @@ public:
         return node;
     }
 
+    vector<string> levelOrderStr(TreeNode* root){
+        vector<TreeNode*> cur;
+        vector<TreeNode*> next;
+        if(!root)
+            return vector<string> {};
+        if(root)
+            cur.push_back(root);
+        vector<string> res;
+//        vector<string> curEles;
+        while(cur.size()){
+            //标识next是否都为null
+            int flag = 0;
+            for(int i = 0;i < cur.size();i++){
+                TreeNode* node = cur[i];
+                if(!node){
+                    res.push_back("null");
+                    continue;
+                }
+                else
+                    res.push_back(to_string(node->val));
+                //如果node的孩子不为null,则改变flag
+                if(node->left || node->right)
+                    flag++;
+                next.push_back(node->left);
+                next.push_back(node->right);
+            }
+            cur = next;
+            if(flag == 0)
+                cur.clear();
+            next.clear();
+        }
+        return res;
+    }
+
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        vector<TreeNode*> cur;
+        vector<TreeNode*> next;
+        if(!root)
+            return vector<vector<int>> {};
+        if(root)
+            cur.push_back(root);
+        vector<vector<int>> res;
+        vector<int> curEles;
+        while(cur.size()){
+            for(int i = 0;i < cur.size();i++){
+                TreeNode* node = cur[i];
+                curEles.push_back(node->val);
+                if(node->left)
+                    next.push_back(node->left);
+                if(node->right)
+                    next.push_back(node->right);
+            }
+            res.push_back(curEles);
+            curEles.clear();
+            cur = next;
+            next.clear();
+        }
+        return res;
+    }
+
 
     void traversePreTree(string& s,TreeNode* root){
         if(root){
@@ -64,13 +124,10 @@ public:
             traversePreTree(s,root->right);
         }
     }
-    void printTree(TreeNode* root){
+    vector<string> printTree(TreeNode* root){
         string s;
-        traversePreTree(s,root);
-        cout<<"[";
-        s = s.substr(0,s.length()-1);
-        cout<<s;
-        cout<<"]"<<endl;
+        vector<string> levelOrder = levelOrderStr(root);
+        return levelOrder;
     }
     void deleteTree(TreeNode* root){
         if(root){
@@ -88,6 +145,38 @@ void printVec(std::vector<T> l){
     std::stringstream ss;
     for(auto ele : l){
         ss << ele;
+        ss >> tmp;
+        res += tmp + ",";
+        ss.clear();
+    }
+    res = res.substr(0,res.size()-1);
+    res += "]";
+    std::cout<<res<<std::endl;
+}
+
+template<typename T>
+string convertVecToStr(std::vector<T> l){
+    std::string res = "[";
+    std::string tmp = "";
+    std::stringstream ss;
+    for(auto ele : l){
+        ss << ele;
+        ss >> tmp;
+        res += tmp + ",";
+        ss.clear();
+    }
+    res = res.substr(0,res.size()-1);
+    res += "]";
+    return res;
+}
+
+template<typename T>
+void printVecArr(std::vector<std::vector<T>> l){
+    std::string res = "[";
+    std::string tmp = "";
+    std::stringstream ss;
+    for(auto ele : l){
+        ss << convertVecToStr(ele);
         ss >> tmp;
         res += tmp + ",";
         ss.clear();
@@ -123,7 +212,8 @@ int main() {
     //[2,1,3]
     string s = Codec().serialize(root);
     TreeNode* ano = Codec().deserialize(s);
-    Codec().printTree(ano);
+    vector<string> vec = Codec().printTree(ano);
+    printVec(vec);
     //result
     //[2,1,3]
 }
