@@ -153,9 +153,9 @@
 | [**449 序列化和反序列化二叉搜索树**](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/) | [C++源码](leetcode_0449/cpp/leetcode_0449.cpp) | [Java源码](leetcode_0449/java/leetcode_0449.java) |
 | [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [C++源码](leetcode_0102/cpp/leetcode_0102.cpp) | [Java源码](leetcode_0102/java/leetcode_0102.java) |
 | [450 删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | [C++源码](leetcode_0450/cpp/leetcode_0450.cpp) | [Java源码](leetcode_0450/java/leetcode_0450.java) |
-| [530 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | C++源码                                        | Java源码                                          |
-| [538 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | C++源码                                        | Java源码                                          |
-| [701 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | C++源码                                        | Java源码                                          |
+| [530 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | [C++源码](leetcode_0530/cpp/leetcode_0530.cpp) | [Java源码](leetcode_0530/java/leetcode_0530.java) |
+| [538 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [C++源码](leetcode_0538/cpp/leetcode_0538.cpp) | [Java源码](leetcode_0538/java/leetcode_0538.java) |
+| [701 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [C++源码](leetcode_0701/cpp/leetcode_0701.cpp) | [Java源码](leetcode_0701/java/leetcode_0701.java) |
 | [0669 修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | C++源码                                        | Java源码                                          |
 | [面试题 04.02. 最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/) | C++源码                                        | Java源码                                          |
 | [面试题 04.05. 合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/) | C++源码                                        | Java源码                                          |
