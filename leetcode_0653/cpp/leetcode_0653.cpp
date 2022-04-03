@@ -41,13 +41,10 @@ public:
             traversePreTree(s,root->right);
         }
     }
-    void printTree(TreeNode* root){
+    vector<string> printTree(TreeNode* root){
         string s;
-        traversePreTree(s,root);
-        cout<<"[";
-        s = s.substr(0,s.length()-1);
-        cout<<s;
-        cout<<"]"<<endl;
+        vector<string> levelOrder = levelOrderStr(root);
+        return levelOrder;
     }
     void deleteTree(TreeNode* root){
         if(root){
@@ -55,6 +52,39 @@ public:
             deleteTree(root->right);
             root = nullptr;
         }
+    }
+    vector<string> levelOrderStr(TreeNode* root){
+        vector<TreeNode*> cur;
+        vector<TreeNode*> next;
+        if(!root)
+            return vector<string> {};
+        if(root)
+            cur.push_back(root);
+        vector<string> res;
+//        vector<string> curEles;
+        while(cur.size()){
+            //标识next是否都为null
+            int flag = 0;
+            for(int i = 0;i < cur.size();i++){
+                TreeNode* node = cur[i];
+                if(!node){
+                    res.push_back("null");
+                    continue;
+                }
+                else
+                    res.push_back(to_string(node->val));
+                //如果node的孩子不为null,则改变flag
+                if(node->left || node->right)
+                    flag++;
+                next.push_back(node->left);
+                next.push_back(node->right);
+            }
+            cur = next;
+            if(flag == 0)
+                cur.clear();
+            next.clear();
+        }
+        return res;
     }
 private:
     bool findHelper(TreeNode* root,int k,unordered_set<int>& s) {
@@ -98,7 +128,8 @@ int main() {
     left->right = lr;
     right->left = rl;
     right->right = rr;
-    Solution().printTree(root);
+    vector<string> vec = Solution().printTree(root);
+    printVec(vec);
 //    root = [5,3,6,2,4,null,7], k = 9
     int k = 9;
     bool res = Solution().findTarget(root,k);
