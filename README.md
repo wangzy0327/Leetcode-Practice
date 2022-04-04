@@ -156,9 +156,9 @@
 | [530 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | [C++源码](leetcode_0530/cpp/leetcode_0530.cpp)   | [Java源码](leetcode_0530/java/leetcode_0530.java)   |
 | [538 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [C++源码](leetcode_0538/cpp/leetcode_0538.cpp)   | [Java源码](leetcode_0538/java/leetcode_0538.java)   |
 | [701 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [C++源码](leetcode_0701/cpp/leetcode_0701.cpp)   | [Java源码](leetcode_0701/java/leetcode_0701.java)   |
-| [0669 修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | C++源码                                          | Java源码                                            |
+| [0669 修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | [C++源码](leetcode_0669/cpp/leetcode_0669.cpp)   | [Java源码](leetcode_0669/java/leetcode_0669.java)   |
 | [面试题 04.02. 最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/) | [C++源码](interview_0402/cpp/interview_0402.cpp) | [Java源码](interview_0402/java/interview_0402.java) |
-| [面试题 04.05. 合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/) | C++源码                                          | Java源码                                            |
+| [面试题 04.05. 合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/) | [C++源码](interview_0405/cpp/interview_0405.cpp) | [Java源码](interview_0405/java/interview_0405.java) |
 | [面试题 04.06. 后继者](https://leetcode-cn.com/problems/successor-lcci/) | C++源码                                          | Java源码                                            |
 | [0783 二叉搜索树节点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) | C++源码                                          | Java源码                                            |
 | [0897 递增顺序搜索树](https://leetcode-cn.com/problems/increasing-order-search-tree/) | C++源码                                          | Java源码                                            |
