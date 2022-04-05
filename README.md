@@ -159,7 +159,7 @@
 | [0669 修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | [C++源码](leetcode_0669/cpp/leetcode_0669.cpp)   | [Java源码](leetcode_0669/java/leetcode_0669.java)   |
 | [面试题 04.02. 最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/) | [C++源码](interview_0402/cpp/interview_0402.cpp) | [Java源码](interview_0402/java/interview_0402.java) |
 | [面试题 04.05. 合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/) | [C++源码](interview_0405/cpp/interview_0405.cpp) | [Java源码](interview_0405/java/interview_0405.java) |
-| [面试题 04.06. 后继者](https://leetcode-cn.com/problems/successor-lcci/) | C++源码                                          | Java源码                                            |
+| [面试题 04.06. 后继者](https://leetcode-cn.com/problems/successor-lcci/) | [C++源码](interview_0406/cpp/interview_0406.cpp) | [Java源码](interview_0406/java/interview_0406.java) |
 | [0783 二叉搜索树节点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) | C++源码                                          | Java源码                                            |
 | [0897 递增顺序搜索树](https://leetcode-cn.com/problems/increasing-order-search-tree/) | C++源码                                          | Java源码                                            |
 | [剑指 Offer 54. 二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | C++源码                                          | Java源码                                            |
