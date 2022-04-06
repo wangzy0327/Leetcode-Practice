@@ -158,6 +158,7 @@
 | [701 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [C++源码](leetcode_0701/cpp/leetcode_0701.cpp)   | [Java源码](leetcode_0701/java/leetcode_0701.java)   |
 | [0669 修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | [C++源码](leetcode_0669/cpp/leetcode_0669.cpp)   | [Java源码](leetcode_0669/java/leetcode_0669.java)   |
 | [面试题 04.02. 最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/) | [C++源码](interview_0402/cpp/interview_0402.cpp) | [Java源码](interview_0402/java/interview_0402.java) |
+| [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | [C++源码](leetcode_0098/cpp/leetcode_0098.cpp)   | [Java源码](leetcode_0098/java/leetcode_0098.java)   |
 | [面试题 04.05. 合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/) | [C++源码](interview_0405/cpp/interview_0405.cpp) | [Java源码](interview_0405/java/interview_0405.java) |
 | [面试题 04.06. 后继者](https://leetcode-cn.com/problems/successor-lcci/) | [C++源码](interview_0406/cpp/interview_0406.cpp) | [Java源码](interview_0406/java/interview_0406.java) |
 | [0783 二叉搜索树节点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) | [C++源码](leetcode_0783/cpp/leetcode_0783.cpp)   | [Java源码](leetcode_0783/java/leetcode_0783.java)   |
@@ -178,7 +179,6 @@
 | [剑指 Offer 68 - II. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | C++源码                                          | Java源码                                            |
 | [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | C++源码                                          | Java源码                                            |
 | [124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | C++源码                                          | Java源码                                            |
-| [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | [C++源码](leetcode_0098/cpp/leetcode_0098.cpp)   | [Java源码](leetcode_0098/java/leetcode_0098.java)   |
 | [222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes) | C++源码                                          | Java源码                                            |
 | [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree) | C++源码                                          | Java源码                                            |
 
