@@ -178,7 +178,7 @@
 | [剑指 Offer 68 - II. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | C++源码                                          | Java源码                                            |
 | [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | C++源码                                          | Java源码                                            |
 | [124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | C++源码                                          | Java源码                                            |
-| [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | C++源码                                          | Java源码                                            |
+| [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) | [C++源码](leetcode_0098/cpp/leetcode_0098.cpp)   | [Java源码](leetcode_0098/java/leetcode_0098.java)   |
 | [222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes) | C++源码                                          | Java源码                                            |
 | [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree) | C++源码                                          | Java源码                                            |
 
