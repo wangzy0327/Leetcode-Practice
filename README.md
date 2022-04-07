@@ -166,7 +166,7 @@
 | [剑指 Offer 54. 二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | [C++源码](offer_1_0054/cpp/offer_1_0054.cpp)     | [Java源码](offer_1_0054/java/offer_1_0054.java)     |
 | [**剑指 Offer 68 - I. 二叉搜索树的最近公共祖先**](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | [C++源码](offer_1_0068_1/cpp/offer_1_0068_1.cpp) | [Java源码](offer_1_0068_1/java/offer_1_0068_1.java) |
 | [剑指 Offer 36. 二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/) | [C++源码](offer_1_0036/cpp/offer_1_0036.cpp)     | [Java源码](offer_1_0036/java/offer_1_0036.java)     |
-| [剑指 Offer 33. 二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) | C++源码                                          | Java源码                                            |
+| [**剑指 Offer 33. 二叉搜索树的后序遍历序列**](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) | [C++源码](offer_1_0033/cpp/offer_1_0033.cpp)     | [Java源码](offer_1_0033/java/offer_1_0033.java)     |
 | [面试题 17.12. BiNode](https://leetcode-cn.com/problems/binode-lcci/) | C++源码                                          | Java源码                                            |
 | [面试题 04.09. 二叉搜索树序列](https://leetcode-cn.com/problems/bst-sequences-lcci/) | C++源码                                          | Java源码                                            |
 | [0938 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) | C++源码                                          | Java源码                                            |
