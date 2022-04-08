@@ -156,6 +156,7 @@
 | [450 删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/) | [C++源码](leetcode_0450/cpp/leetcode_0450.cpp)   | [Java源码](leetcode_0450/java/leetcode_0450.java)   |
 | [530 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | [C++源码](leetcode_0530/cpp/leetcode_0530.cpp)   | [Java源码](leetcode_0530/java/leetcode_0530.java)   |
 | [538 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/) | [C++源码](leetcode_0538/cpp/leetcode_0538.cpp)   | [Java源码](leetcode_0538/java/leetcode_0538.java)   |
+| [1038 从二叉搜索树到更大和树](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) | [C++源码](leetcode_1038/cpp/leetcode_1038.cpp)   | [Java源码](leetcode_1038/java/leetcode_1038.java)   |
 | [701 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [C++源码](leetcode_0701/cpp/leetcode_0701.cpp)   | [Java源码](leetcode_0701/java/leetcode_0701.java)   |
 | [0669 修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/) | [C++源码](leetcode_0669/cpp/leetcode_0669.cpp)   | [Java源码](leetcode_0669/java/leetcode_0669.java)   |
 | [面试题 04.02. 最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/) | [C++源码](interview_0402/cpp/interview_0402.cpp) | [Java源码](interview_0402/java/interview_0402.java) |
@@ -172,9 +173,8 @@
 | [**面试题 04.09. 二叉搜索树序列**](https://leetcode-cn.com/problems/bst-sequences-lcci/) | [C++源码](interview_0409/cpp/interview_0409.cpp) | [Java源码](interview_0409/java/interview_0409.java) |
 | [0938 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) | [C++源码](leetcode_0938/cpp/leetcode_0938.cpp)   | [Java源码](leetcode_0938/java/leetcode_0938.java)   |
 | [1008 前序遍历构造二叉搜索树](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [C++源码](leetcode_1008/cpp/leetcode_1008.cpp)   | [Java源码](leetcode_1008/java/leetcode_1008.java)   |
-| [1038 从二叉搜索树到更大和树](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) | C++源码                                          | Java源码                                            |
-| [1382 将二叉搜索树变平衡](https://leetcode-cn.com/problems/balance-a-binary-search-tree/) | C++源码                                          | Java源码                                            |
-| [1305 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/) | C++源码                                          | Java源码                                            |
+| [1382 将二叉搜索树变平衡 **(平衡二叉树)**](https://leetcode-cn.com/problems/balance-a-binary-search-tree/) | [C++源码](leetcode_1382/cpp/leetcode_1382.cpp)   | [Java源码](leetcode_1382/java/leetcode_1382.java)   |
+| [1305 两棵二叉搜索树中的所有元素 ****](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/) | C++源码                                          | Java源码                                            |
 | [1373 二叉搜索子树的最大键值和](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) | C++源码                                          | Java源码                                            |
 | [面试题 04.08. 首个共同祖先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/) | C++源码                                          | Java源码                                            |
 | [剑指 Offer 68 - II. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | C++源码                                          | Java源码                                            |
