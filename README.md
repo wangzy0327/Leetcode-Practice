@@ -170,8 +170,8 @@
 | [**剑指 Offer 33. 二叉搜索树的后序遍历序列**](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) | [C++源码](offer_1_0033/cpp/offer_1_0033.cpp)     | [Java源码](offer_1_0033/java/offer_1_0033.java)     |
 | [面试题 17.12. BiNode](https://leetcode-cn.com/problems/binode-lcci/) | [C++源码](interview_1712/cpp/interview_1712.cpp) | [Java源码](interview_1712/java/interview_1712.java) |
 | [**面试题 04.09. 二叉搜索树序列**](https://leetcode-cn.com/problems/bst-sequences-lcci/) | [C++源码](interview_0409/cpp/interview_0409.cpp) | [Java源码](interview_0409/java/interview_0409.java) |
-| [0938 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) | C++源码                                          | Java源码                                            |
-| [1008 前序遍历构造二叉搜索树](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | C++源码                                          | Java源码                                            |
+| [0938 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) | [C++源码](leetcode_0938/cpp/leetcode_0938.cpp)   | [Java源码](leetcode_0938/java/leetcode_0938.java)   |
+| [1008 前序遍历构造二叉搜索树](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [C++源码](leetcode_1008/cpp/leetcode_1008.cpp)   | [Java源码](leetcode_1008/java/leetcode_1008.java)   |
 | [1038 从二叉搜索树到更大和树](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) | C++源码                                          | Java源码                                            |
 | [1382 将二叉搜索树变平衡](https://leetcode-cn.com/problems/balance-a-binary-search-tree/) | C++源码                                          | Java源码                                            |
 | [1305 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/) | C++源码                                          | Java源码                                            |
