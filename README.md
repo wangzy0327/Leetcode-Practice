@@ -174,7 +174,7 @@
 | [0938 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) | [C++源码](leetcode_0938/cpp/leetcode_0938.cpp)   | [Java源码](leetcode_0938/java/leetcode_0938.java)   |
 | [1008 前序遍历构造二叉搜索树](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [C++源码](leetcode_1008/cpp/leetcode_1008.cpp)   | [Java源码](leetcode_1008/java/leetcode_1008.java)   |
 | [1382 将二叉搜索树变平衡 **(平衡二叉树)**](https://leetcode-cn.com/problems/balance-a-binary-search-tree/) | [C++源码](leetcode_1382/cpp/leetcode_1382.cpp)   | [Java源码](leetcode_1382/java/leetcode_1382.java)   |
-| [1305 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/) | C++源码                                          | Java源码                                            |
+| [1305 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/) | [C++源码](leetcode_1305/cpp/leetcode_1305.cpp)   | [Java源码](leetcode_1305/java/leetcode_1305.java)   |
 | [1373 二叉搜索子树的最大键值和](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) | C++源码                                          | Java源码                                            |
 | [面试题 04.08. 首个共同祖先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/) | C++源码                                          | Java源码                                            |
 | [剑指 Offer 68 - II. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | C++源码                                          | Java源码                                            |
