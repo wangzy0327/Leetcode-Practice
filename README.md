@@ -176,9 +176,9 @@
 | [1382 将二叉搜索树变平衡 **(平衡二叉树)**](https://leetcode-cn.com/problems/balance-a-binary-search-tree/) | [C++源码](leetcode_1382/cpp/leetcode_1382.cpp)   | [Java源码](leetcode_1382/java/leetcode_1382.java)   |
 | [1305 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/) | [C++源码](leetcode_1305/cpp/leetcode_1305.cpp)   | [Java源码](leetcode_1305/java/leetcode_1305.java)   |
 | [**1373 二叉搜索子树的最大键值和**](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/) | [C++源码](leetcode_1373/cpp/leetcode_1373.cpp)   | [Java源码](leetcode_1373/java/leetcode_1373.java)   |
-| [面试题 04.08. 首个共同祖先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/) | C++源码                                          | Java源码                                            |
-| [剑指 Offer 68 - II. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | C++源码                                          | Java源码                                            |
-| [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | C++源码                                          | Java源码                                            |
+| [面试题 04.08. 首个共同祖先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/) | [C++源码](interview_0408/cpp/interview_0408.cpp) | [Java源码](interview_0408/java/interview_0408.java) |
+| [剑指 Offer 68 - II. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) | [C++源码](offer_2_0068/cpp/offer_2_0068.cpp)     | [Java源码](offer_2_0068/java/offer_2_0068.java)     |
+| [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++源码](leetcode_0236/cpp/leetcode_0236.cpp)   | [Java源码](leetcode_0236/java/leetcode_0236.java)   |
 | [124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | C++源码                                          | Java源码                                            |
 | [222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes) | C++源码                                          | Java源码                                            |
 | [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree) | C++源码                                          | Java源码                                            |
