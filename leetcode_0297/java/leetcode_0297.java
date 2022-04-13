@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class leetcode_0449 {
+public class leetcode_0297 {
     public class TreeNode{
         int val;
         TreeNode left;
@@ -124,29 +124,29 @@ public class leetcode_0449 {
         }
     }
     public static void main(String[] args) {
-        Codec codec = new leetcode_0449().new Codec();
-        TreeNode root = new leetcode_0449().new TreeNode(2);
-        TreeNode left = new leetcode_0449().new TreeNode(1);
-        TreeNode right = new leetcode_0449().new TreeNode(3);
-//        leetcode_0449.TreeNode ll = new leetcode_0449().new TreeNode(1);
-//        leetcode_0449.TreeNode lr = new leetcode_0449().new TreeNode(3);
-//        leetcode_0449.TreeNode rl = new leetcode_0449().new TreeNode(6);
-//        leetcode_0449.TreeNode rr = new leetcode_0449().new TreeNode(9);
+        Codec codec = new leetcode_0297().new Codec();
+        leetcode_0297.TreeNode root = new leetcode_0297().new TreeNode(1);
+        leetcode_0297.TreeNode left = new leetcode_0297().new TreeNode(2);
+        leetcode_0297.TreeNode right = new leetcode_0297().new TreeNode(3);
+//        leetcode_0297.TreeNode ll = new leetcode_0297().new TreeNode(1);
+//        leetcode_0297.TreeNode lr = new leetcode_0297().new TreeNode(3);
+        leetcode_0297.TreeNode rl = new leetcode_0297().new TreeNode(4);
+        leetcode_0297.TreeNode rr = new leetcode_0297().new TreeNode(5);
 //        left.left = ll;
 //        left.right = lr;
-//        right.left = rl;
-//        right.right = rr;
+        right.left = rl;
+        right.right = rr;
         root.left = left;
         root.right = right;
         List<String> rootStr = codec.levelOrderStr(root);
         System.out.println(Arrays.toString(rootStr.toArray(String[]::new)));
 //        codec.printTree(root);
-        //[2,1,3]
+        //[1,2,3,null,null,4,5]
         String serializeStr = codec.serialize(root);
         TreeNode ano = codec.deserialize(serializeStr);
         List<String> anoStr = codec.levelOrderStr(ano);
         System.out.println(Arrays.toString(anoStr.toArray(String[]::new)));
         //result
-        //[2,1,3]
+        //[1,2,3,null,null,4,5]
     }
 }
