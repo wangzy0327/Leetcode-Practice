@@ -189,7 +189,7 @@
 | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
 | [**111. 二叉树的最小深度**](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree) | [C++源码](leetcode_0111/cpp/leetcode_0111.cpp) | [Java源码](leetcode_0111/java/leetcode_0111.java) |
 | [**752. 打开转盘锁**](https://leetcode-cn.com/problems/open-the-lock) | [C++源码](leetcode_0752/cpp/leetcode_0752.cpp) | [Java源码](leetcode_0752/java/leetcode_0752.java) |
-| [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle) | C++源码                                        | Java源码                                          |
+| [773. 滑动谜题 (BFS 细节复杂)](https://leetcode-cn.com/problems/sliding-puzzle) | [C++源码](leetcode_0773/cpp/leetcode_0773.cpp) | [Java源码](leetcode_0773/java/leetcode_0773.java) |
 | [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | C++源码                                        | Java源码                                          |
 
 
