@@ -190,7 +190,6 @@
 | [**111. 二叉树的最小深度**](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree) | [C++源码](leetcode_0111/cpp/leetcode_0111.cpp) | [Java源码](leetcode_0111/java/leetcode_0111.java) |
 | [**752. 打开转盘锁**](https://leetcode-cn.com/problems/open-the-lock) | [C++源码](leetcode_0752/cpp/leetcode_0752.cpp) | [Java源码](leetcode_0752/java/leetcode_0752.java) |
 | [773. 滑动谜题 (BFS 细节复杂)](https://leetcode-cn.com/problems/sliding-puzzle) | [C++源码](leetcode_0773/cpp/leetcode_0773.cpp) | [Java源码](leetcode_0773/java/leetcode_0773.java) |
-| [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | C++源码                                        | Java源码                                          |
 
 
 
@@ -226,6 +225,7 @@
 | [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [C++源码](leetcode_0234/cpp/leetcode_0234.cpp) | [Java源码](leetcode_0234/java/leetcode_0234.java) |
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum/)       | [C++源码](leetcode_0015/cpp/leetcode_0015.cpp) | [Java源码](leetcode_0015/java/leetcode_0015.java) |
 | [18. 四数之和](https://leetcode-cn.com/problems/4sum)        | [C++源码](leetcode_0018/cpp/leetcode_0018.cpp) | [Java源码](leetcode_0018/java/leetcode_0018.java) |
+| [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | [C++源码](leetcode_0016/cpp/leetcode_0016.cpp) | [Java源码](leetcode_0016/java/leetcode_0016.java) |
 | [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | C++源码                                        | Java源码                                          |
 
 
