@@ -134,7 +134,7 @@
 
 | 回溯（DFS）                                                  | 无代码                                           |                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------ | --------------------------------------------------- |
-| [46. 全排列](https://leetcode-cn.com/problems/permutations/) | C++源码                                          | Java源码                                            |
+| [**46. 全排列**](https://leetcode-cn.com/problems/permutations/) | [C++源码](leetcode_0046/cpp/leetcode_0046.cpp)   | [Java源码](leetcode_0046/java/leetcode_0046.java)   |
 | [77. 组合](https://leetcode-cn.com/problems/combinations/)   | C++源码                                          | Java源码                                            |
 | [78. 子集](https://leetcode-cn.com/problems/subsets/)        | C++源码                                          | Java源码                                            |
 | [面试题 08.09. 括号](https://leetcode-cn.com/problems/bracket-lcci/) | C++源码                                          | Java源码                                            |
