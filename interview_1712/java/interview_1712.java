@@ -107,11 +107,11 @@ public class interview_1712 {
                 if (i == list.size() - 1) {
                     if (i == 0)
                         System.out.printf("[ ");
-                    System.out.println(Arrays.toString(list.get(i).toArray(Integer[]::new)) + " ] ");
+                    System.out.println(Arrays.toString(list.get(i).toArray((T[]) new Object[0])) + " ] ");
                 } else {
                     if (i == 0)
                         System.out.printf("[ ");
-                    System.out.printf(Arrays.toString(list.get(i).toArray(Integer[]::new)) + " , ");
+                    System.out.printf(Arrays.toString(list.get(i).toArray((T[]) new Object[0])) + " , ");
                 }
             }
         }

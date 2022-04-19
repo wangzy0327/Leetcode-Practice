@@ -118,11 +118,11 @@ public class leetcode_1305 {
                 if (i == list.size() - 1) {
                     if (i == 0)
                         System.out.printf("[ ");
-                    System.out.println(Arrays.toString(list.get(i).toArray(Integer[]::new)) + " ] ");
+                    System.out.println(Arrays.toString(list.get(i).toArray((T[]) new Object[0])) + " ] ");
                 } else {
                     if (i == 0)
                         System.out.printf("[ ");
-                    System.out.printf(Arrays.toString(list.get(i).toArray(Integer[]::new)) + " , ");
+                    System.out.printf(Arrays.toString(list.get(i).toArray((T[]) new Object[0])) + " , ");
                 }
             }
         }
@@ -146,7 +146,7 @@ public class leetcode_1305 {
         List<String> root2Str = solution.levelOrderStr(root2);
         System.out.println(Arrays.toString(root2Str.toArray(String[]::new)));
         List<Integer> allElements = solution.getAllElements(root1, root2);
-        System.out.println(Arrays.toString(allElements.toArray(Integer[]::new)));
+        System.out.println(Arrays.toString(allElements.toArray((T[]) new Object[0])));
         //[0,1,1,2,3,4]
     }
 }
