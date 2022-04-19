@@ -139,8 +139,8 @@
 | [78. 子集](https://leetcode-cn.com/problems/subsets/)        | [C++源码](leetcode_0078/cpp/leetcode_0078.cpp)   | [Java源码](leetcode_0078/java/leetcode_0078.java)   |
 | [面试题 08.09. 括号](https://leetcode-cn.com/problems/bracket-lcci/) | [C++源码](interview_0809/cpp/interview_0809.cpp) | [Java源码](interview_0809/java/interview_0809.java) |
 | [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [C++源码](leetcode_0022/cpp/leetcode_0022.cpp)   | [Java源码](leetcode_0022/java/leetcode_0022.java)   |
-| [51. N 皇后](https://leetcode-cn.com/problems/n-queens)      | [C++源码](leetcode_0051/cpp/leetcode_0051.cpp)   | [Java源码](leetcode_0051/java/leetcode_0051.java)   |
-| [37. 解数独](https://leetcode-cn.com/problems/sudoku-solver) | C++源码                                          | Java源码                                            |
+| [51. N 皇后 (**细节**)](https://leetcode-cn.com/problems/n-queens) | [C++源码](leetcode_0051/cpp/leetcode_0051.cpp)   | [Java源码](leetcode_0051/java/leetcode_0051.java)   |
+| [37. 解数独 (**细节**)](https://leetcode-cn.com/problems/sudoku-solver) | [C++源码](leetcode_0037/cpp/leetcode_0037.cpp)   | [Java源码](leetcode_0037/java/leetcode_0037.java)   |
 | [**面试题 04.09. 二叉搜索树序列**](https://leetcode-cn.com/problems/bst-sequences-lcci/) | [C++源码](interview_0409/cpp/interview_0409.cpp) | [Java源码](interview_0409/java/interview_0409.java) |
 
 
