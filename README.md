@@ -242,7 +242,7 @@
 
 | 数学                                                         | 无代码                                         |                                                   |
 | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
-| [204. 计数质数](https://leetcode-cn.com/problems/count-primes/) | C++源码                                        | Java源码                                          |
+| [**204. 计数质数**](https://leetcode-cn.com/problems/count-primes/) | [C++源码](leetcode_0204/cpp/leetcode_0204.cpp) | [Java源码](leetcode_0204/java/leetcode_0204.java) |
 | [372 超级次方](https://leetcode-cn.com/problems/super-pow/)  | C++源码                                        | Java源码                                          |
 | [556. 下一个更大元素 III](https://leetcode-cn.com/problems/next-greater-element-iii/) | [C++源码](leetcode_0556/cpp/leetcode_0556.cpp) | [Java源码](leetcode_0556/java/leetcode_0556.java) |
 
