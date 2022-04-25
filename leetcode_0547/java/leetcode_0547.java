@@ -61,5 +61,7 @@ public class leetcode_0547 {
         };
         int circleNum = solution.findCircleNum(isConnected);
         System.out.println(circleNum);
+        //result
+        //2
     }
 }
