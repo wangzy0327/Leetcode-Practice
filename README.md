@@ -89,7 +89,7 @@
 | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
 | [**547. 省份数量**](https://leetcode-cn.com/problems/number-of-provinces/) | [C++源码](leetcode_0547/cpp/leetcode_0547.cpp) | [Java源码](leetcode_0547/java/leetcode_0547.java) |
 | [**130. 被围绕的区域** ](https://leetcode-cn.com/problems/surrounded-regions/)(DFS) | [C++源码](leetcode_0130/cpp/leetcode_0130.cpp) | [Java源码](leetcode_0130/java/leetcode_0130.java) |
-| [990. 等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations/) | C++源码                                        | Java源码                                          |
+| [**990. 等式方程的可满足性**](https://leetcode-cn.com/problems/satisfiability-of-equality-equations/) | [C++源码](leetcode_0990/cpp/leetcode_0990.cpp) | [Java源码](leetcode_0990/java/leetcode_0990.java) |
 
 
 
