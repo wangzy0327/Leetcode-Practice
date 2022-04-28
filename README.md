@@ -226,7 +226,7 @@
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum/)       | [C++源码](leetcode_0015/cpp/leetcode_0015.cpp) | [Java源码](leetcode_0015/java/leetcode_0015.java) |
 | [18. 四数之和](https://leetcode-cn.com/problems/4sum)        | [C++源码](leetcode_0018/cpp/leetcode_0018.cpp) | [Java源码](leetcode_0018/java/leetcode_0018.java) |
 | [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | [C++源码](leetcode_0016/cpp/leetcode_0016.cpp) | [Java源码](leetcode_0016/java/leetcode_0016.java) |
-| [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | C++源码                                        | Java源码                                          |
+| [**42. 接雨水**](https://leetcode-cn.com/problems/trapping-rain-water/) | [C++源码](leetcode_0042/cpp/leetcode_0042.cpp) | [Java源码](leetcode_0042/java/leetcode_0042.java) |
 
 
 
