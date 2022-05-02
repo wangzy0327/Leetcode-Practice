@@ -109,7 +109,7 @@
 | [**300 最长递增子序列**](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [C++源码](leetcode_0300/cpp/leetcode_0300.cpp) | [Java源码](leetcode_0300/java/leetcode_0300.java) |
 | [**53. 最大子数组和**](https://leetcode-cn.com/problems/maximum-subarray) | [C++源码](leetcode_0053/cpp/leetcode_0053.cpp) | [Java源码](leetcode_0053/java/leetcode_0053.java) |
 | [**5. 最长回文子串**](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [C++源码](leetcode_0005/cpp/leetcode_0005.cpp) | [Java源码](leetcode_0005/java/leetcode_0005.java) |
-| [516 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | C++源码                                        | Java源码                                          |
+| [**516 最长回文子序列**](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | [C++源码](leetcode_0516/cpp/leetcode_0516.cpp) | [Java源码](leetcode_0516/java/leetcode_0516.java) |
 | [354 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/) | C++源码                                        | Java源码                                          |
 | [1143 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | C++源码                                        | Java源码                                          |
 | [72 编辑距离](https://leetcode-cn.com/problems/edit-distance/) | C++源码                                        | Java源码                                          |
