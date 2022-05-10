@@ -117,7 +117,7 @@
 | [**10 正则表达式匹配**](https://leetcode-cn.com/problems/regular-expression-matching/) | [C++源码](leetcode_0010/cpp/leetcode_0010.cpp) | [Java源码](leetcode_0010/java/leetcode_0010.java) |
 | [887 鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/) | C++源码                                        | Java源码                                          |
 | [1569. 将子数组重新排序得到同一个二叉查找树的方案数](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | C++源码                                        | Java源码                                          |
-| [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | C++源码                                        | Java源码                                          |
+| [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [C++源码](leetcode_0322/cpp/leetcode_0322.cpp) | [Java源码](leetcode_0322/java/leetcode_0322.java) |
 | [518 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/) | C++源码                                        | Java源码                                          |
 | [198 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | C++源码                                        | Java源码                                          |
 | [213 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) | C++源码                                        | Java源码                                          |
