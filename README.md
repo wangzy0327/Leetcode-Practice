@@ -115,7 +115,7 @@
 | [**72 编辑距离**](https://leetcode-cn.com/problems/edit-distance/) | [C++源码](leetcode_0072/cpp/leetcode_0072.cpp) | [Java源码](leetcode_0072/java/leetcode_0072.java) |
 | [**1312. 让字符串成为回文串的最少插入次数**](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [C++源码](leetcode_1312/cpp/leetcode_1312.cpp) | [Java源码](leetcode_1312/java/leetcode_1312.java) |
 | [**10 正则表达式匹配**](https://leetcode-cn.com/problems/regular-expression-matching/) | [C++源码](leetcode_0010/cpp/leetcode_0010.cpp) | [Java源码](leetcode_0010/java/leetcode_0010.java) |
-| [887 鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/) | C++源码                                        | Java源码                                          |
+| [**887 鸡蛋掉落**](https://leetcode-cn.com/problems/super-egg-drop/) （谷歌经典面试题） | [C++源码](leetcode_0887/cpp/leetcode_0887.cpp) | Java源码                                          |
 | [1569. 将子数组重新排序得到同一个二叉查找树的方案数](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | C++源码                                        | Java源码                                          |
 | [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [C++源码](leetcode_0322/cpp/leetcode_0322.cpp) | [Java源码](leetcode_0322/java/leetcode_0322.java) |
 | [518 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/) | C++源码                                        | Java源码                                          |
