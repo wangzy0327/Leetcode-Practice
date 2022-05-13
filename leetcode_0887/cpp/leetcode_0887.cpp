@@ -117,7 +117,7 @@ public:
     }
 public:
     //时间复杂度O(k*n*logn)
-    int superEggDrop1(int k, int n) {
+    int superEggDrop2(int k, int n) {
         //思路：动态规划
         //极端情况：如果只有一个蛋，则从一层开始逐层向上，最多就是测的楼层高度
         //极端情况：如果有无数个蛋，则采用二分法进行测量楼层高度
@@ -187,7 +187,7 @@ public:
 public:
     //时间复杂度O(k*n)
     //方法三：逆向思维
-    //思路：反过来想这个问题：如果我们可以做 t 次操作，而且有 k 个鸡蛋，那么我们能找到答案的最高的 n 是多少？我们设 f(t,k) 为在上述条件下的 n。
+    //思路：反过来想这个问题：如果我们有 k 个鸡蛋，可以做 t 次操作，那么我们在保证能找到碎蛋的楼层f下，最多能达到的楼层高度为n是多少？我们设 f(t,k) 为在上述条件下的 n。
     // 如果我们求出了所有的 f(t, k),那么只需要找出最小的满足 f(t,k)≥n 的 t
     // 动态规划：由于要找出最高的n,所以不需要考虑在哪里扔鸡蛋
     // 如果鸡蛋没有碎，在该层以上还可以有 f(t-1,k)层
@@ -217,7 +217,7 @@ public:
      * @param n
      * @return
      */
-    int superEggDrop2(int k, int n) {
+    int superEggDrop3(int k, int n) {
 //        vector<vector<int>> dp = vector<vector<int>>(n+1,vector<int>(k+1,0));
         //空间压缩 由于状态转移方程只跟左上，正上有关 初始化只操作1次 最高1层楼
         vector<int> dp = vector<int>(k+1,1);
@@ -257,7 +257,7 @@ int main(){
     int k = 4;
     int n = 10000;
     //result 23
-    int res = Solution().superEggDrop2(k,n);
+    int res = Solution().superEggDrop3(k,n);
     cout<<res<<endl;
     //result
     //3
