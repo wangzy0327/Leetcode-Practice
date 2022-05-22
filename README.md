@@ -125,7 +125,7 @@
 | [**494 目标和**](https://leetcode-cn.com/problems/target-sum/) | [C++源码](leetcode_0494/cpp/leetcode_0494.cpp) | [Java源码](leetcode_0494/java/leetcode_0494.java) |
 | [**309 最佳买卖股票时机含冷冻期**](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++源码](leetcode_0309/cpp/leetcode_0309.cpp) | [Java源码](leetcode_0309/java/leetcode_0309.java) |
 | [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) （动态规划/贪心） | [C++源码](leetcode_0055/cpp/leetcode_0055.cpp) | [Java源码](leetcode_0055/java/leetcode_0055.java) |
-| [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | C++源码                                        | Java源码                                          |
+| [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [C++源码](leetcode_0045/cpp/leetcode_0045.cpp) | [Java源码](leetcode_0045/java/leetcode_0045.java) |
 | [651. 4键键盘](https://leetcode-cn.com/problems/4-keys-keyboard) | C++源码                                        | Java源码                                          |
 | [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons) | C++源码                                        | Java源码                                          |
 | [416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum) | C++源码                                        | Java源码                                          |
@@ -208,6 +208,7 @@
 | 贪心                                                         | 无代码                                         |                                                   |
 | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
 | [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) （动态规划/贪心） | [C++源码](leetcode_0055/cpp/leetcode_0055.cpp) | [Java源码](leetcode_0055/java/leetcode_0055.java) |
+| [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [C++源码](leetcode_0045/cpp/leetcode_0045.cpp) | [Java源码](leetcode_0045/java/leetcode_0045.java) |
 | [406. 根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | C++源码                                        | Java源码                                          |
 | [969. 煎饼排序](https://leetcode-cn.com/problems/pancake-sorting/) | C++源码                                        | Java源码                                          |
 | [452. 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | C++源码                                        | Java源码                                          |
