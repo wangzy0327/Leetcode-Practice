@@ -127,7 +127,7 @@
 | [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) （动态规划/贪心） | [C++源码](leetcode_0055/cpp/leetcode_0055.cpp) | [Java源码](leetcode_0055/java/leetcode_0055.java) |
 | [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [C++源码](leetcode_0045/cpp/leetcode_0045.cpp) | [Java源码](leetcode_0045/java/leetcode_0045.java) |
 | [651. 4键键盘](https://leetcode-cn.com/problems/4-keys-keyboard) | C++源码                                        | Java源码                                          |
-| [312. 戳气球](https://leetcode-cn.com/problems/burst-balloons) | C++源码                                        | Java源码                                          |
+| [**312. 戳气球**](https://leetcode-cn.com/problems/burst-balloons) | [C++源码](leetcode_0312/cpp/leetcode_0312.cpp) | [Java源码](leetcode_0312/java/leetcode_0312.java) |
 | [416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum) | C++源码                                        | Java源码                                          |
 
 
