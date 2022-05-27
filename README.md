@@ -118,7 +118,7 @@
 | [**887 鸡蛋掉落**](https://leetcode-cn.com/problems/super-egg-drop/) （谷歌经典面试题） | [C++源码](leetcode_0887/cpp/leetcode_0887.cpp) | [Java源码](leetcode_0887/java/leetcode_0887.java) |
 | [**1569. 将子数组重新排序得到同一个二叉查找树的方案数**](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | [C++源码](leetcode_1569/cpp/leetcode_1569.cpp) | [Java源码](leetcode_1569/java/leetcode_1569.java) |
 | [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [C++源码](leetcode_0322/cpp/leetcode_0322.cpp) | [Java源码](leetcode_0322/java/leetcode_0322.java) |
-| [**518 零钱兑换 II**](https://leetcode-cn.com/problems/coin-change-2/) | [C++源码](leetcode_0518/cpp/leetcode_0518.cpp) | [Java源码](leetcode_0518/java/leetcode_0518.java) |
+| [**518 零钱兑换 II**](https://leetcode-cn.com/problems/coin-change-2/) (完全背包问题) | [C++源码](leetcode_0518/cpp/leetcode_0518.cpp) | [Java源码](leetcode_0518/java/leetcode_0518.java) |
 | [198 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [C++源码](leetcode_0198/cpp/leetcode_0198.cpp) | [Java源码](leetcode_0198/java/leetcode_0198.java) |
 | [213 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) | [C++源码](leetcode_0213/cpp/leetcode_0213.cpp) | [Java源码](leetcode_0213/java/leetcode_0213.java) |
 | [**337 打家劫舍 III**](https://leetcode-cn.com/problems/house-robber-iii/) | [C++源码](leetcode_0337/cpp/leetcode_0337.cpp) | [Java源码](leetcode_0337/java/leetcode_0337.java) |
@@ -128,7 +128,7 @@
 | [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [C++源码](leetcode_0045/cpp/leetcode_0045.cpp) | [Java源码](leetcode_0045/java/leetcode_0045.java) |
 | [651. 4键键盘](https://leetcode-cn.com/problems/4-keys-keyboard) | C++源码                                        | Java源码                                          |
 | [**312. 戳气球**](https://leetcode-cn.com/problems/burst-balloons) | [C++源码](leetcode_0312/cpp/leetcode_0312.cpp) | [Java源码](leetcode_0312/java/leetcode_0312.java) |
-| [416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum) | C++源码                                        | Java源码                                          |
+| [**416. 分割等和子集**](https://leetcode-cn.com/problems/partition-equal-subset-sum) (0/1背包问题) | [C++源码](leetcode_0416/cpp/leetcode_0416.cpp) | [Java源码](leetcode_0416/java/leetcode_0416.java) |
 
 
 
