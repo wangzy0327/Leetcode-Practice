@@ -209,7 +209,7 @@
 | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
 | [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) （动态规划/贪心） | [C++源码](leetcode_0055/cpp/leetcode_0055.cpp) | [Java源码](leetcode_0055/java/leetcode_0055.java) |
 | [**45. 跳跃游戏 II**](https://leetcode-cn.com/problems/jump-game-ii/) | [C++源码](leetcode_0045/cpp/leetcode_0045.cpp) | [Java源码](leetcode_0045/java/leetcode_0045.java) |
-| [406. 根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | C++源码                                        | Java源码                                          |
+| [**406. 根据身高重建队列**](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) (lambda表达式/函数对象/排序) | [C++源码](leetcode_0406/cpp/leetcode_0406.cpp) | [Java源码](leetcode_0406/java/leetcode_0406.java) |
 | [969. 煎饼排序](https://leetcode-cn.com/problems/pancake-sorting/) | C++源码                                        | Java源码                                          |
 | [452. 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/) | C++源码                                        | Java源码                                          |
 | [435. 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/) | C++源码                                        | Java源码                                          |
