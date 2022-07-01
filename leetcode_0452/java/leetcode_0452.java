@@ -16,7 +16,9 @@ public class leetcode_0452 {
             //4.继续上面的过程
             //排序
             //注意这里不要用加减法，正数-负数会越界
-            Arrays.sort(points,(u, v) -> u[1]<v[1]?-1:1);
+            //这里比较器必须考虑 两者相等的情况，否则在某些情况下会报错
+            //java.lang.IllegalArgumentException: Comparison method violates its general contract
+            Arrays.sort(points,(u, v) -> (u[1]<=v[1])?((u[1]<v[1])?-1:0):1);
             int ans = 1;
             int lastEnd = points[0][1];
             for(int[] point : points){
