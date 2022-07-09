@@ -142,6 +142,7 @@
 | [51. N 皇后 (**细节**)](https://leetcode-cn.com/problems/n-queens) | [C++源码](leetcode_0051/cpp/leetcode_0051.cpp)   | [Java源码](leetcode_0051/java/leetcode_0051.java)   |
 | [37. 解数独 (**细节**)](https://leetcode-cn.com/problems/sudoku-solver) | [C++源码](leetcode_0037/cpp/leetcode_0037.cpp)   | [Java源码](leetcode_0037/java/leetcode_0037.java)   |
 | [**面试题 04.09. 二叉搜索树序列**](https://leetcode-cn.com/problems/bst-sequences-lcci/) | [C++源码](interview_0409/cpp/interview_0409.cpp) | [Java源码](interview_0409/java/interview_0409.java) |
+| [**491. 递增子序列**](https://leetcode.cn/problems/increasing-subsequences/) | [C++源码](leetcode_0491/cpp/leetcode_0491.cpp)   | [Java源码](leetcode_0491/java/leetcode_0491.java)   |
 
 
 
