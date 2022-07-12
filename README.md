@@ -252,11 +252,11 @@
 
 
 
-| 脑筋急转弯/博弈                                              | 无代码  |          |
-| ------------------------------------------------------------ | ------- | -------- |
-| [292. Nim 游戏](https://leetcode-cn.com/problems/nim-game/)  | C++源码 | Java源码 |
-| [877 石子游戏](https://leetcode-cn.com/problems/stone-game/) | C++源码 | Java源码 |
-| [319. 灯泡开关](https://leetcode-cn.com/problems/bulb-switcher/) | C++源码 | Java源码 |
+| 脑筋急转弯/博弈                                              | 无代码                                         |                                                   |
+| ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
+| [**292. Nim 游戏**](https://leetcode-cn.com/problems/nim-game/) (博弈) | [C++源码](leetcode_0292/cpp/leetcode_0292.cpp) | [Java源码](leetcode_0292/java/leetcode_0292.java) |
+| [877 石子游戏](https://leetcode-cn.com/problems/stone-game/) | C++源码                                        | Java源码                                          |
+| [319. 灯泡开关](https://leetcode-cn.com/problems/bulb-switcher/) | C++源码                                        | Java源码                                          |
 
 
 
