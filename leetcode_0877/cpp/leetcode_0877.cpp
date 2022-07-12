@@ -37,10 +37,35 @@ public:
     }
 };
 
+class Solution2{
+public:
+    bool stoneGame(vector<int>& piles) {
+        //动态规划：
+        //如果只有一堆石子，则直接取走
+        // 子问题为石子堆从[i,j]当前选手发挥最高水平时，石子差
+        //用dp[i,j]来表示 当前选手与对手的石子堆的最大差
+        //如果当前取piles[i],则dp[i+1,j]即为对方选手可以取得的石子堆与自己的差（反过来）,则需要相减
+        //dp[i,j] = max(piles[i] - dp[i+1,j],piles[j] - dp[i,j-1])
+        int n = piles.size();
+        vector<vector<int>> dp = vector<vector<int>>(n,vector<int>(n,0));
+        //最终求取 dp[0,n-1]的值是大于0还是小于0
+        for(int i = 0;i < piles.size();i++)
+            dp[i][i] = piles[i];
+        for(int i = n - 2;i >= 0;i--){
+            for(int j = i+1;j < n;j++){
+                dp[i][j] = max(piles[i] - dp[i+1][j],piles[j] - dp[i][j-1]);
+            }
+        }
+        return dp[0][n-1] > 0;
+    }
+};
+
 int main(){
     vector<int> piles = {5,3,4,5};
     bool res = Solution().stoneGame(piles);
+    bool res2 = Solution2().stoneGame(piles);
     cout<<boolalpha<<res<<endl;
+    cout<<boolalpha<<res2<<endl;
     //result true
     /**
      * 解释：

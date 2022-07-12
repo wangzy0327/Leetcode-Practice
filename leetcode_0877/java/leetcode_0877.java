@@ -14,11 +14,34 @@ public class leetcode_0877 {
             return true;
         }
     }
+    class Solution2{
+        public boolean stoneGame(int[] piles) {
+            //动态规划：
+            //如果只有一堆石子，则直接取走 子问题为石子堆从[i,j]发挥最高水平时，石子差
+            //用dp[i,j]来表示 当前选手与对手的石子堆的最大差
+            //如果当前取piles[i],则dp[i+1,j]即为对方选手可以取得的石子堆与自己的差（反过来）,则需要相减
+            //dp[i,j] = max(piles[i] - dp[i+1,j],piles[j] - dp[i,j-1])
+            int n = piles.length;
+            int[][] dp = new int[n][n];
+            //最终求取 dp[0,n-1]的值是大于0还是小于0
+            for(int i = 0;i < n;i++)
+                dp[i][i] = piles[i];
+            for(int i = n - 2;i >= 0;i--){
+                for(int j = i+1;j < n;j++){
+                    dp[i][j] = Math.max(piles[i] - dp[i+1][j],piles[j] - dp[i][j-1]);
+                }
+            }
+            return dp[0][n-1] > 0;
+        }
+    }
     public static void main(String[] args) {
         leetcode_0877.Solution solution = new leetcode_0877().new Solution();
+        leetcode_0877.Solution2 solution2 = new leetcode_0877().new Solution2();
         int[] piles = {5,3,4,5};
         boolean res = solution.stoneGame(piles);
+        boolean res2 = solution2.stoneGame(piles);
         System.out.println(res);
+        System.out.println(res2);
         //result true
         /**
          * 解释：
