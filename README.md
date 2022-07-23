@@ -3,11 +3,11 @@
 
 
 
-| 位运算                                                       | 无代码                             |                                           |
-| ------------------------------------------------------------ | ---------------------------------- | ----------------------------------------- |
-| [剑指 Offer 15. 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | [C++源码](offer_0015/cpp/main.cpp) | [Java源码](offer_0015/java/Solution.java) |
-|                                                              |                                    |                                           |
-|                                                              |                                    |                                           |
+| 位运算                                                       | 无代码                                     |                                           |
+| ------------------------------------------------------------ | ------------------------------------------ | ----------------------------------------- |
+| [剑指 Offer 15. 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | [C++源码](offer_0015/cpp/main.cpp)         | [Java源码](offer_0015/java/Solution.java) |
+| [260. 只出现一次的数字 III](https://leetcode.cn/problems/single-number-iii/) | [C++源码](leetcode_0260/leetcode_0260.cpp) | Java源码                                  |
+| [剑指 Offer 56 - I. 数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) | [C++源码](offer_1_0056/offer_1_0056.cpp)   | Java源码                                  |
 
 
 
