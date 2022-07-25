@@ -55,6 +55,7 @@
 | 栈                                                           | 无代码                                         |                                                   |
 | ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
 | [**394. 字符串解码**](https://leetcode-cn.com/problems/decode-string/) | [C++源码](leetcode_0394/cpp/leetcode_0394.cpp) | [Java源码](leetcode_0394/java/leetcode_0394.java) |
+| [**496. 下一个更大元素 I**](https://leetcode-cn.com/problems/next-greater-element-i/) （单调栈） | [C++源码](leetcode_0496/cpp/leetcode_0496.cpp) | [Java源码](leetcode_0496/java/leetcode_0496.java) |
 | [**503. 下一个更大元素 II**](https://leetcode-cn.com/problems/next-greater-element-ii/) | [C++源码](leetcode_0503/cpp/leetcode_0503.cpp) | [Java源码](leetcode_0503/java/leetcode_0503.java) |
 | [**496. 下一个更大元素 I**](https://leetcode-cn.com/problems/next-greater-element-i/) | [C++源码](leetcode_0496/cpp/leetcode_0496.cpp) | [Java源码](leetcode_0496/java/leetcode_0496.java) |
 | [**224. 基本计算器**](https://leetcode-cn.com/problems/basic-calculator/) | [C++源码](leetcode_0224/cpp/leetcode_0224.cpp) | [Java源码](leetcode_0224/java/leetcode_0224.java) |
